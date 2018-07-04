@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	firstname:<input type="text" id="firstname">
+	lastname:<input type="text" id="lastname">
+	mobile_name:<input type="text" id="mobileno">
+	email:<input type="text" id="email">
+	<button onclick="fun()">submit</button>
+
+    <script type="text/javascript">
+    	function fun() {
+	   var w=document.getElementById('firstname').value;
+	   var x=document.getElementById('lastname').value;
+	   var y=document.getElementById('mobileno').value;
+	   var z=document.getElementById('email').value;
+	   if(!w.match(/^[a-zA-Z]+$/))
+	   	{
+	   		alert("successfully login");
+	   	}
+	   	else{
+	   		alert("hell");
+	   	}
+	   	if(!y.match(/^[0-9]+$/))
+	   	{
+	   		alert("srry");
+	   	}
+	   	else{
+	   		alert("fifty shades");
+	   	}
+	   	if(!z.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/))
+	   	{
+	   		
+	   	}
+      }
+	</script>
+
+</body>
+</html> 
